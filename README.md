@@ -22,9 +22,29 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+# AdminJS with NestJS and Mongoose Example
+
+This repository serves as a working example of integrating AdminJS with NestJS using Mongoose. AdminJS is a modern admin panel for Node.js applications.
+
+## Getting Started
+
+Follow the steps below to set up and run the example:
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js and npm
+- MongoDB (Make sure your MongoDB server is running)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/niksbanna/nestjs-adminjs-example-app.git
+
 
 ## Installation
 
@@ -32,6 +52,7 @@
 $ yarn install
 ```
 ## ENV Configuration
+create a .env file and update your database URL
 ```bash
 DB_URL=`your_db_url`
 ```
@@ -49,29 +70,20 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
-## Test
+## Open for Pull Requests
 
-```bash
-# unit tests
-$ yarn run test
+Feel free to contribute and improve this example! If you have any enhancements, bug fixes, or new features to propose, please follow the guidelines below:
 
-# e2e tests
-$ yarn run test:e2e
+1. Fork the repository.
+2. Create a new branch for your changes:
 
-# test coverage
-$ yarn run test:cov
-```
+   ```bash
+   git checkout -b feature/your-feature-name
+   git commit -m "Add your commit message here"
+   git push origin feature/your-feature-name
 
-## Support
+3. Open a Pull Request (PR) against the main branch of this repository.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Please provide a clear and descriptive PR title and description. Ensure that your code follows best practices, is well-documented, and includes relevant tests.
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Thank you for your contributions! 🚀
